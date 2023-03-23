@@ -1,0 +1,33 @@
+.rodapef {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+    padding-block: 3rem;
+}
+
+.rodapef h4 {
+    color: #646869;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.rodapef p{
+    color: #646869;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+
+.rodapeinicial {
+  background-color: #fc4c02;
+  display: flex;
+  place-items: center;
+  text-align: center;
+}
+
+.rodapeinicial img{
+   margin: auto;
+   margin-block: -3rem;
+}
+
+

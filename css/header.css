@@ -1,0 +1,249 @@
+.cabecalho {
+  background-image: linear-gradient(to right, #e9492a, #e72357);
+}
+
+.cabecalho .logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-inline: 10rem;
+}
+
+.cabecalho img {
+  width: 450px;
+}
+
+.logotexto {
+  color: #ffffff;
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.logotexto h1 {
+  font-size: 4rem;
+}
+
+.logotexto span {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.boximg1 .linha {
+  z-index: 1;
+  position: absolute;
+  left: -2rem;
+  top: 4rem;
+}
+
+.boximg1 .bolinha {
+  z-index: 2;
+  top: 27rem;
+  width: 160px;
+  position: absolute;
+  left: 55rem;
+}
+
+.boximg1 .setas {
+  z-index: 3;
+  width: 160px;
+  position: absolute;
+  top: 1rem;
+  left: 72rem;
+}
+
+.boximg1 .logomandatrends {
+  z-index: 10;
+  position: relative;
+}
+
+.boximg2 .mulher {
+  position: relative;
+  top: 14rem;
+}
+
+.logotexto .triangulo {
+  position: absolute;
+  width: 80px;
+  top: 1rem;
+  left: 30rem;
+}
+
+.logotexto .zigzag {
+  position: absolute;
+  width: 100px;
+  top: 22rem;
+  left: 28rem;
+}
+
+@media screen and (max-width: 1720px) {
+  .cabecalho img {
+    width: 350px;
+  }
+
+  .logotexto h1 {
+    font-size: 2.5rem;
+  }
+
+  .logotexto span {
+    font-size: 1.5rem;
+  }
+
+  .boximg1 .bolinha {
+    top: 20.5rem;
+    width: 135px;
+    left: 45rem;
+  }
+
+  .boximg1 .setas {
+    width: 135px;
+    top: 1rem;
+    left: 60rem;
+  }
+
+  .boximg2 .mulher {
+    top: 11rem;
+  }
+
+  .logotexto .triangulo {
+    width: 55px;
+    left: 18rem;
+  }
+
+  .logotexto .zigzag {
+    width: 70px;
+    top: 17rem;
+    left: 16.8rem;
+  }
+}
+
+@media screen and (max-width: 1375px) {
+  .cabecalho .logo {
+    padding-inline: 5rem;
+  }
+
+  .cabecalho img {
+    width: 250px;
+  }
+
+  .logotexto h1 {
+    font-size: 1.8rem;
+  }
+
+  .logotexto span {
+    font-size: 1.2rem;
+  }
+
+  .boximg1 .bolinha {
+    top: 15rem;
+    width: 100px;
+    left: 38rem;
+  }
+
+  .boximg1 .setas {
+    width: 90px;
+    left: 42rem;
+  }
+
+  .boximg2 .mulher {
+    top: 7.8rem;
+  }
+
+  .logotexto .triangulo {
+    width: 40px;
+    left: 13rem;
+  }
+
+  .logotexto .zigzag {
+    width: 50px;
+    top: 12.5rem;
+    left: 12rem;
+  }
+
+  .boximg1 .linha {
+    z-index: 1;
+    position: absolute;
+    left: -2rem;
+    top: 4rem;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .boximg1 .setas {
+    display: none;
+  }
+
+  .boximg1 .bolinha {
+    display: none;
+  }
+
+  .cabecalho img {
+    width: 200px;
+  }
+
+  .logotexto h1 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .logotexto span {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .boximg2 .mulher {
+    top: 2rem;
+    width: 120px;
+    align-items: center;
+  }
+
+  .logotexto .triangulo {
+    display: none;
+  }
+
+  .logotexto {
+    color: #ffffff;
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+
+  .logotexto .zigzag {
+    width: 55px;
+    top: 2rem;
+    left: 17rem;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .cabecalho {
+    margin-inline: 0rem;
+  }
+
+  .boximg2 .mulher {
+    display: none;
+  }
+
+  .boximg1 .linha {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .logotexto {
+    flex-direction: column;
+    padding-bottom: 3rem;
+    text-align: center;
+    padding-inline: 2rem;
+  }
+
+  .logotexto .zigzag {
+    display: none;
+  }
+}
