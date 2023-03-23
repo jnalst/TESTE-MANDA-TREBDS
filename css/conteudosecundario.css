@@ -129,3 +129,14 @@
     font-size: 1.4rem;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .conteudo1 i::before {
+    width: 7.5rem;
+  }
+
+  .conteudo2 i::before {
+    width: 7.5rem;
+  }
+}
+
